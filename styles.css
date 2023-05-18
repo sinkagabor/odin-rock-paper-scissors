@@ -1,0 +1,51 @@
+body {
+font-family: Phantomsans, sans-serif;
+font-size: 40px;
+background: url(background.png) no-repeat; 
+background-size: 1920px 1080px;
+}
+
+#btnContainer, #resultContainer, #scoreContainer, #winnerContainer, #frontTitle, #gameDescription{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#scoreContainer, #resultContainer, #winnerContainer {
+    font-size: 60px;
+}
+
+#rockBtn, #paperBtn, #scissorsBtn {
+  align-items: center;
+  background-image: linear-gradient(144deg,#47464b, #4e4c5e 50%,#709699);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(98, 95, 102, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 60px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 24px 24px;
+  margin: 20px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(10px);
+  }
+
+#frontTitle {
+    font-size: 60px;
+    color: rgb(3, 3, 2);
+}
